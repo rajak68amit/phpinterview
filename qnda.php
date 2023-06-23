@@ -58,10 +58,12 @@ exit();
 $num = 5;
 
 echo gettype(strval($num));
+
 exit();
 // Convert a string to a number.
 
 $num = "12345";
+
 echo intval($num);
 
 exit();
@@ -91,6 +93,7 @@ exit();
 $string = "raja amit raja amit";
 $str = explode(" ", $string);
 $result = [];
+
 foreach ($str as $key => $v) {
 
     if (in_array($v, $result) == false) {

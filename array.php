@@ -1,4 +1,9 @@
 <?php
+
+$ar  = [0,1,12,7,2];
+
+
+
 /* ulta sidha ek saman */
 
 /* 

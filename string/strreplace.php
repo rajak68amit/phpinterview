@@ -6,6 +6,8 @@
 3. substr_replace()
 4. strstr()
 */
+
+
 $strtr = "Hello world. The world is nice";
 
 $strtrarray = ["Hello" => "Hi", "world" => "earth"];
@@ -25,6 +27,7 @@ $a = "i love php, i love php too";
 $b = "Hello world. The world is nice";
 
 $find = ["Hello","world"];
+
 $replace = ["amit","rajak"];
 
 //echo str_replace($find,$replace,$b); // amit rajak. The rajak is nice
